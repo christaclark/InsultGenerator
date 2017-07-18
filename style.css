@@ -10,34 +10,40 @@ body {
 }
 
 #insult {
-  background: #415a86;
-  background: rgba(40, 63, 110, 0.7);
-  color: white;
+  color: #9C27B0;
   line-height: 1.5;
   padding: .5em 1em;
   margin: 1.5em auto .5em;
+  border-radius: 50px;
 }
 
 #insult p {
-  font-size: 1.65em;
+  font-size: 2em;
   margin: 0;
 }
 
 h1 {
-  color: white;
-  font: 3em 'Fjalla One', sans-serif;
-  margin: .5em 0;
-  text-transform: uppercase;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #f397c8;
+  margin-bottom: 10px;
+  font-style: italic;
 }
 
 #control {
-  background: #d7dde6;
   border-radius: 3px;
-  color: #415a86;
+  color: #fff;
   cursor: pointer;
   font-size: 0.875em;
   padding: 1em;
   text-transform: uppercase;
+  background: #f397c8;
+  color: #9C27B0;
+  line-height: 1.5;
+  margin: 1.5em auto .5em;
+  border-radius: 50px;
 }
 
 #control:hover {
