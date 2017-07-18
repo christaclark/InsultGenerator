@@ -1,5 +1,5 @@
 body {
-  background: #5f7aa4 url("bird.png") no-repeat bottom center fixed;
+  background: #fbe6f1 url("assets/images/10.png") no-repeat bottom center fixed;
   font: 100%/1 "Work Sans", sans-serif;
 }
 
@@ -40,7 +40,6 @@ h1 {
   padding: 1em;
   text-transform: uppercase;
   background: #f397c8;
-  color: #9C27B0;
   line-height: 1.5;
   margin: 1.5em auto .5em;
   border-radius: 50px;
