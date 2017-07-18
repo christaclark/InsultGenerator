@@ -1,0 +1,45 @@
+body {
+  background: #5f7aa4 url("bird.png") no-repeat bottom center fixed;
+  font: 100%/1 "Work Sans", sans-serif;
+}
+
+#wrapper {
+  margin: 1em auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+#insult {
+  background: #415a86;
+  background: rgba(40, 63, 110, 0.7);
+  color: white;
+  line-height: 1.5;
+  padding: .5em 1em;
+  margin: 1.5em auto .5em;
+}
+
+#insult p {
+  font-size: 1.65em;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font: 3em 'Fjalla One', sans-serif;
+  margin: .5em 0;
+  text-transform: uppercase;
+}
+
+#control {
+  background: #d7dde6;
+  border-radius: 3px;
+  color: #415a86;
+  cursor: pointer;
+  font-size: 0.875em;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+#control:hover {
+  background: white;
+}

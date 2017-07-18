@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Insult Generator</title>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Work+Sans" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id='wrapper'>
+      <h1>Insult Generator</h1>
+      <div id='insult'>
+        <p>&nbsp;</p>
+      </div>
+      <div id='control'>
+        Generate Awesome Insult
+      </div>
+    </div>
+    <script>
+      $(document).ready(function (){
+        $('#control').click(function(){
+          $('#insult p').html(generateInsult());
+          $('#control').html("Generate Another Awesome Insult");
+        });
+      });
+    </script>
+  </body>
+</html>
